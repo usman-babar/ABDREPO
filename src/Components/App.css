@@ -1,0 +1,269 @@
+.Sibmission{
+
+    color:azure;
+    background-color: aliceblue;
+
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+.Submission {
+  width: 50%;
+  margin: 5% auto 0;
+  padding: 20px;
+  background-color: #f5f5f5;
+  border-radius: 4px;
+}
+
+.Submission h4 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.Submission .form-group {
+  margin-bottom: 15px;
+}
+
+.Submission label {
+  display: block;
+  font-size: 18px;
+  margin-bottom: 5px;
+}
+
+.Submission input[type="text"],
+.Submission input[type="number"] {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+}
+
+.Submission .error {
+  color: red;
+  font-size: 14px;
+  margin-top: 5px;
+}
+
+.Submission button {
+  background-color: #333;
+  color: white;
+  padding: 10px 20px;
+  font-size: 16px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.Submission button:hover {
+  background-color: #555;
+}
+
+.withdrawal-container {
+  background-image: url("../../src/bank.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 24px;
+  font-weight: bold;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.submission-container input {
+  color: rgb(0, 0, 0);
+  background-color: #ffffff;
+  border: none;
+  padding: 8px;
+  width: 90%;
+  border-radius: 4px;
+  font-size: 22px;}
+
+
+
+.submission-container button {
+  background-color: rgb(30, 87, 73);
+  color: white;
+  padding: 12px 24px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.submission-container .form-control {
+  margin-top: 20px;
+  color: black;
+}
+
+.submission-container {
+  width: 50%;
+  height: 400px;
+  margin: 0% auto 0% auto;
+  background-color: rgba(255, 255, 255, 0.253);
+  border-radius: 16px;
+}
+
+
+
+h4 {
+  color: yellow;
+  font-size: 34px
+}
+
+.form-group {
+  margin-bottom: 16px;
+}
+
+label {
+  color: yellow;
+  margin-bottom: 8px;
+  display: block;
+}
+
+input[type="text"],
+input[type="number"] {
+  color: rgb(0, 0, 0);
+  background-color: #ffffff;
+  border: none;
+  padding: 8px;
+  width: 90%;
+  border-radius: 4px;
+  font-size: 22px;
+}
+
+.error-message {
+  color: red;
+  margin-top: 4px;
+}
+
+.withdraw-button {
+  background-color: rgb(30, 87, 73);
+  color: white;
+  padding: 12px 24px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+
+.bank-background {
+  background-image: url("../../src/bank.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.styled-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+.table-head {
+  background: #555555;
+  color: white;
+  font-size: 20px;
+}
+
+.styled-table td,
+.styled-table th {
+  padding: 8px;
+  text-align: center;
+}
+
+.styled-table tbody tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+.submission-container .form-error {
+  color: red;
+  font-size: 14px;
+}
+
+
+.add-account-container {
+  background-image: url("../../src/bank.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 24px;
+  font-weight: bold;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.submission-container-s {
+  width: 50%;
+  height: 540px;
+  margin: 0% auto 0% auto;
+  background-color: rgba(255, 255, 255, 0.253);
+  border-radius: 16px;
+}
+
+.submission-container-s .form-error {
+  color: red;
+  font-size: 14px;
+}
+
+.submission-container-s .form-control {
+  margin-top: 2px;
+  color: black;
+  font-size: 19px;
+}
+
+.submission-container-s button {
+  background-color: rgb(30, 87, 73);
+  color: white;
+  padding: 7px 24px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+
+.login-page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-size: cover;
+}
+
+.login-title {
+  color: white;
+}
+
+.login-form {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.login-input {
+  padding: 0.5rem;
+  border-radius: 4px;
+  border: 1px solid gray;
+  font-size: 16px;
+}
+
+.login-button {
+  padding: 0.5rem 1rem;
+  border-radius: 4px;
+  background-color: red;
+  color: white;
+  border: none;
+  font-size: 20px;
+}
