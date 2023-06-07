@@ -6,7 +6,7 @@ import axios from "axios";
 //   console.log("Example app listening on port 5678!");
 // });
 
-const URL = "http://localhost:3001";
+const URL = "http://localhost:3002";
 
 //Withdraw Amount
 export const Withdraw_Money = async (data) => {
